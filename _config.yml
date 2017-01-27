@@ -26,6 +26,14 @@ github_username:  jekyll
 
 collections:
   landingPageBanners:
+defaults:
+- scope:
+    path: ''
+    type: landingPageBanners
+  values:
+    description: ''
+    image: ''
+    link: ''
 
 # Build settings
 markdown: kramdown
