@@ -19,7 +19,7 @@
     {% else %}
       <div class="item">
     {% endif %}
-        <img src="{{ banner.image }}" alt="{{ banner.title }}" width="100%" height="auto">
+        <img src="{{ banner.image | prepend: site.url }}" alt="{{ banner.title }}" width="100%" height="auto">
         <div class="carousel-caption">
           <p>{{ banner.description }} <a href="{{ banner.link }}" class="btn btn-primary">More Info</a></p>
         </div>
