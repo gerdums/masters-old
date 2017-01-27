@@ -1,0 +1,59 @@
+---
+
+---
+$gold: #DAAA00;
+$navy: #0C2340;
+$white: #ffffff;
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.navbar-inverse {
+  background-color: $navy;
+  border-color: $navy;
+  color: $navy;
+}
+
+.navbar-inverse .navbar-brand {
+    color: $white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: $white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: $gold;
+
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: $gold;
+    background-color: $navy;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+  background-color: $navy;
+}
+
+.btn-primary {
+  color: $white;
+  background-color: $gold;
+  border-color: $gold;
+}
+
+.btn-primary:hover {
+  color: $navy;
+  background-color: $white;
+  border-color: $white;
+}
+
+.dropdown-menu {
+  background-color: $navy;
+}
+
+.dropdown-menu>li>a {
+  color: $white;
+}
