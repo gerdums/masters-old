@@ -2,8 +2,14 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
       <a class="navbar-brand" href="{{ site.baseurl }}">{{ site.title }}</a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
       <li class="dropdown">
@@ -27,6 +33,39 @@
       </li>
       <li><a href="#">Athletics</a></li>
     </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#">Online</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Students
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Student Life</a></li>
+          <li><a href="#">Canvas</a></li>
+          <li><a href="#">Self Service</a></li>
+          <li><a href="#">Content Managment</a></li>
+          <li><a href="#">library</a></li>
+          <li><a href="#">Caf Menu</a></li>
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Printers</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Faculty/Staff
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Canvas</a></li>
+          <li><a href="#">Self Service</a></li>
+          <li><a href="#">Content Managment</a></li>
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Marketing Request</a></li>
+          <li><a href="#">Chapel Announcement Request</a></li>
+          <li><a href="#">ADP Login</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Alumni</a></li>
+      <li><a href="#">Give</a></li>
+    </ul>
+   </div>
   </div>
 </nav>
 </header>
