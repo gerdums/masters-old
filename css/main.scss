@@ -1,6 +1,6 @@
 ---
----
 
+---
 $gold: #DAAA00;
 $navy: #0C2340;
 $white: #ffffff;
@@ -50,10 +50,30 @@ $white: #ffffff;
   border-color: $white;
 }
 
+.btn-primary:active {
+
+}
+
 .dropdown-menu {
   background-color: $navy;
 }
 
 .dropdown-menu>li>a {
   color: $white;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: $navy;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: $navy;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: $navy;
+}
+
+.navbar-collapse {
+    box-shadow: inset 0 0px 0 rgba(255,255,255,.1);
 }
