@@ -29,7 +29,7 @@ url: https://blakenoll.github.io/TMU/
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
-theme: 
+theme:
 sass:
   style: compressed
 gems:
