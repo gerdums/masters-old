@@ -3,6 +3,14 @@ title: The Master's University
 timezone: UTC
 collections:
   landingPageBanners:
+    title: Landing Page Banners
+    output: false
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
 - scope:
     path: ''
@@ -13,22 +21,16 @@ defaults:
     link: ''
     title: Landing Page Banners
     output: false
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 email: your-email@domain.com
-description: 'Write an awesome description for your new site here. You can edit this
+description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.'
+  results) and in your feed.xml site description.
 baseurl: ''
 url: https://blakenoll.github.io/TMU/
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
-theme:
+theme: 
 sass:
   style: compressed
 gems:
