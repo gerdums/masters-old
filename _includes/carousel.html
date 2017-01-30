@@ -21,7 +21,7 @@
     {% endif %}
         <img src="{{ banner.image | prepend: site.url }}" alt="{{ banner.title }}" width="100%" height="auto">
         <div class="carousel-caption">
-          <p>{{ banner.description }} <a href="{{ banner.link }}" class="btn btn-primary">More Info</a></p>
+          <p>{{ banner.description }} <a href="{{ banner.link }}" class="btn btn-primary">{{ banner.button-text }}</a></p>
         </div>
       </div>
     {% endfor %}

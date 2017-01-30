@@ -104,6 +104,9 @@ $white: #ffffff;
     color: #000;
     text-shadow: none;
  }
+.carousel-indicators {
+  display: none;
+}
 }
 
 #search {
@@ -125,4 +128,8 @@ $white: #ffffff;
 
 .navbar-form {
   box-shadow: none;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
 }
