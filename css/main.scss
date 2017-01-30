@@ -94,6 +94,10 @@ $white: #ffffff;
     background-repeat: repeat-x;
 }
 
+#home-logo {
+  width: 275px;
+}
+
 @media screen and (max-width: 1024px) {
  .carousel-caption {
     right: 20%;
@@ -104,9 +108,12 @@ $white: #ffffff;
     color: #000;
     text-shadow: none;
  }
-.carousel-indicators {
+ .carousel-indicators {
   display: none;
-}
+ }
+ #home-logo {
+   width: 150px;
+ }
 }
 
 #search {
@@ -124,10 +131,6 @@ $white: #ffffff;
     background-color: #0c2340;
     color: #fff;
     border: none;
-}
-
-#home-logo {
-  width: 275px;
 }
 
 .navbar-form {
