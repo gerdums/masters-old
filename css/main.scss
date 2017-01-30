@@ -77,3 +77,52 @@ $white: #ffffff;
 .navbar-collapse {
     box-shadow: inset 0 0px 0 rgba(255,255,255,.1);
 }
+
+.center {
+  text-align: center;
+}
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: none;
+    background-repeat: repeat-x;
+}
+
+.carousel-control.left {
+    background-image: none;
+    background-repeat: repeat-x;
+}
+
+@media screen and (max-width: 1024px) {
+ .carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: static;
+    color: #000;
+    text-shadow: none;
+ }
+}
+
+#search {
+    background-color: #0c2340;
+    border-bottom: 1px solid #fff;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 1px;
+    color: #fff;
+    box-shadow: none;
+}
+
+#search-btn {
+    background-color: #0c2340;
+    color: #fff;
+    border: none;
+}
+
+.navbar-form {
+  box-shadow: none;
+}
