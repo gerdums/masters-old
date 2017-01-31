@@ -22,11 +22,14 @@ layout: default
   </div>
   <h2 class="center">Upcoming Events</h2>
   <div class="row">
-    {% for event in site.upcomingevents %}
     <div class="row">
+      {% for event in site.upcomingevents %}
       <div class="col-sm-2">
+        <h4 class="center">{{ event.title }}</h4>
         <img class="img-fluid" src="{{ event.image | prepend: site.url }}" alt="Event Image" width="100%">
+        <time>{{ event.event_date | date: "%b %-d %Y" }}</time>
       </div>
+      {% endfor %}
     </div>
   </div>
 </div>
