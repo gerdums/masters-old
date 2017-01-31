@@ -1,6 +1,7 @@
 ---
 title: Test
 date: 2017-01-31 01:15:00 Z
+layout: news
 ---
 
 When it comes to matters of objective truth, like the Gospel, this world has effectively encouraged an ecumenical faith that embraces “all truths” as equal.  Our culture virtually prickles at the thought of objective, absolute truth, particularly when it comes to a person’s faith.   

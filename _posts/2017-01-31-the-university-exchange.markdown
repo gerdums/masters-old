@@ -1,6 +1,7 @@
 ---
 title: The University Exchange
 date: 2017-01-31 00:56:00 Z
+layout: news
 ---
 
 A bookstore is a physical representation of an institution; it represents who we are. October 2016 The Master’s University Bookstore closed its doors and was cleared out for renovation. Paper covered the windows and thin wood walls concealed the facade --- hiding the work being done, but unable to silence the sound of nails being hammered in or stifle the smell of fresh paint.
@@ -11,4 +12,4 @@ Jensen explained, “UE will no longer simply fill a need but create an experien
 There will be an entire section featuring the collected works of our president, Dr. John MacArthur, along with shelves filled with classic literature recommended by the English faculty, books suggested by the Business and History departments, biographies, entrepreneurial and more. The latter offered are all supplemental to the course textbooks students will be able to purchase online (ue.masters.edu).
 However, UE will not only have books. Emily Clark, a senior Biblical Counseling major at Master’s U, commented, “It’s exciting because the staff is putting a lot of work into giving it a whole new look. It will be ivy league and collegiate, perhaps more so than any other university. It’s exciting to make our school presentable to people. Merchandise sells a school to high schoolers; when something looks nice it will bring people in.”
 The University Exchange is more than books or merchandise. Everything about the store --- the design, books, atmosphere, product and even the team behind it ---- brings together the past, present and future of The Master’s University. The UE will offer multiple generations of students and guests the opportunity to take a piece of the university with them, united under one cohesive identity.
-We cannot wait for you, along with the Master’s U Board of Directors, to join us at The University Exchange for it’s official opening next Friday, February 3rd at 12 noon! 
+We cannot wait for you, along with the Master’s U Board of Directors, to join us at The University Exchange for it’s official opening next Friday, February 3rd at 12 noon!
