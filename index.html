@@ -22,6 +22,11 @@ layout: default
   </div>
   <h2 class="center">Upcoming Events</h2>
   <div class="row">
-    <p></p>
+    {% for event in site.upcomingevents %}
+    <div class="row">
+      <div class="col-sm-2">
+        <img class="img-fluid" src="{{ event.image | prepend: site.url }}" alt="Event Image" width="100%">
+      </div>
+    </div>
   </div>
 </div>
