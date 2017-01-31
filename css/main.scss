@@ -5,6 +5,7 @@ $gold: #DAAA00;
 $navy: #0C2340;
 $white: #ffffff;
 
+
 .navbar {
   margin-bottom: 0px;
   border-radius: 0px;
@@ -159,4 +160,31 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     margin: 6px;
     white-space: normal!important;
     word-wrap: break-word;
+}
+
+.absolute-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.mast {
+    position: relative;
+    height: 35em;
+    color: #fff;
+    background-color: #0a0a0a;
+}
+
+.wht-a {
+  color: $white;
+}
+
+.wht-a:focus, .wht-a:hover {
+  color: $white;
+  text-decoration: none;
 }
