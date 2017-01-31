@@ -5,4 +5,11 @@ layout: default
 {% include carousel.html %}
 <div class="container">
   <h2 class="center">News</h2>
+  {% for post in site.posts %}
+  <div class="col-sm-4">
+    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+    <h4>{{ post.date }}</h4>
+    <p>{{ post.content | truncatewords: 50 }}</p>
+  </div>
+  {% endfor %}
 </div>
