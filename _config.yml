@@ -2,9 +2,15 @@
 title: The Master's University
 timezone: UTC
 collections:
+  gradprograms:
+    title: Grad Programs
+    output: true
   landingPageBanners:
     title: Landing Page Banners
     output: false
+  onlineprograms:
+    title: Online Programs
+    output: true
   posts:
     title: Posts
     output: true
@@ -16,12 +22,6 @@ collections:
     output: true
   uploads:
     title: Uploads
-    output: true
-  gradprograms:
-    title: Grad Programs
-    output: true
-  onlineprograms:
-    title: Online Programs
     output: true
 defaults:
 - scope:
@@ -73,12 +73,12 @@ email: your-email@domain.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
-baseurl:
+baseurl: 
 url: https://blakenoll.github.io/TMU/
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
-theme:
+theme: 
 sass:
   style: compressed
 gems:
