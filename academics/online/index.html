@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="container">
+  <h1>Online Programs</h1>
+  <h2>Undergraduate</h2>
+  {% for program in site.onlineprograms %}
+  {% if program.level == "undergrad" %}
+  <h3><a href="{{ program.url | prepend: site.url }}">{{ program.title }}</a></h3>
+  {% endif %}
+  {% endfor %}
+  <h2>Graduate</h2>
+  {% for program in site.onlineprograms %}
+  {% if program.level == "grad" %}
+  <h3><a href="{{ program.url | prepend: site.url }}">{{ program.title }}</a></h3>
+  {% endif %}
+  {% endfor %}
+  <h2>Highschool dual enrollment</h2>
+  <h2>Online General Education</h2>
+  <h2>Online Admissions</h2>
+  <h2>Student Resources</h2>
+  <h2>Partner Church Program</h2>
+</div>

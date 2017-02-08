@@ -27,9 +27,9 @@
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="{{ "/academics/undergraduate" | prepend: site.url }}">Undergraduate</a></li>
-          <li><a href="#">Graduate</a></li>
-          <li><a href="#">Online</a></li>
-          <li><a href="#">TMS</a></li>
+          <li><a href="{{ "/academics/graduate" | prepend: site.url }}">Graduate</a></li>
+          <li><a href="{{ "/academics/online" | prepend: site.url }}">Online</a></li>
+          <li><a href="https://www.tms.edu/">TMS</a></li>
         </ul>
       </li>
       <li><a href="#">Athletics</a></li>
@@ -42,7 +42,7 @@
 </form>
 
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Online</a></li>
+      <li><a href="{{ "/academics/online" | prepend: site.url }}">Online</a></li>
       <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Students
         <span class="caret"></span></a>
@@ -53,7 +53,7 @@
           <li><a href="https://www2.masters.edu/edit/WebDept/Logon.aspx?ToolID=&Error=&JumpURL=">Content Managment</a></li>
           <li><a href="#">library</a></li>
           <li><a href="#">Caf Menu</a></li>
-          <li><a href="#">Email</a></li>
+          <li><a href="https://outlook.com/mail.masters.edu">Email</a></li>
           <li><a href="#">Printers</a></li>
         </ul>
       </li>
@@ -61,16 +61,16 @@
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Faculty/Staff
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Canvas</a></li>
-          <li><a href="#">Self Service</a></li>
-          <li><a href="#">Content Managment</a></li>
-          <li><a href="#">Email</a></li>
+          <li><a href="https://masters.instructure.com/login">Canvas</a></li>
+          <li><a href="https://portal.masters.edu/SelfService">Self Service</a></li>
+          <li><a href="https://www2.masters.edu/edit/WebDept/Logon.aspx?ToolID=&Error=&JumpURL=">Content Managment</a></li>
+          <li><a href="https://outlook.com/mail.masters.edu">Email</a></li>
           <li><a href="#">Marketing Request</a></li>
           <li><a href="#">Chapel Announcement Request</a></li>
-          <li><a href="#">ADP Login</a></li>
+          <li><a href="https://workforcenow.adp.com/public/index.htm">ADP Login</a></li>
         </ul>
       </li>
-      <li><a href="#">Alumni</a></li>
+      <li><a href="{{ "/alumni" | prepend: site.url }}">Alumni</a></li>
       <li><a href="#">Give</a></li>
     </ul>
    </div>
