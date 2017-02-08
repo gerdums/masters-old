@@ -17,3 +17,4 @@ degrees:
 - B.A., The Master's University
 - M.A., California State University, Long Beach
 ---
+
