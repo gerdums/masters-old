@@ -19,5 +19,6 @@ degrees:
 - M.A., The Institute of Holy Land Studies
 - M.Div., Th.M., The Master's Seminary
 - Ph.D., Dallas Theological Seminary
+email: bible@masters.edu
 ---
 
