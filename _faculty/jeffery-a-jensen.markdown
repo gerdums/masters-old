@@ -16,5 +16,6 @@ degrees:
 - A.S., York College of Pennsylvania
 - B.A., The Master's University
 - M.A., California State University, Long Beach
+email: jjensen@masters.edu
 ---
 
