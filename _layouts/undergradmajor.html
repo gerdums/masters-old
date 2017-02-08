@@ -8,4 +8,14 @@ layout: default
     <li>{{ page.title }}</li>
   </ol>
   <p>{{ page.description }}</p>
+  <h3>Faculty</h3>
+  <ul>
+      {% for faculty in site.faculty %}
+      {% if faculty.department == page.title %}
+      <li><a href="{{ faculty.url | prepend: site.url }}">{{ faculty.title }}</a></li>
+      {% endif %}
+      {% endfor %}
+  </ul>
+
+
 </div>
