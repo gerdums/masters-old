@@ -16,5 +16,6 @@ department: Political Studies
 degrees:
 - B.A., M.A., California State University, Los Angeles
 - Ph.D., University of Southern California
+email: jstead@masters.edu
 ---
 
