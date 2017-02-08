@@ -81,7 +81,7 @@ defaults:
     job-title: ''
     image: ''
     description: ''
-    undergradmajors: ''
+    undergra dmajors: ''
     permalink: faculty/:title
 email: your-email@domain.com
 description: Write an awesome description for your new site here. You can edit this
