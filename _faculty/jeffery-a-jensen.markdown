@@ -11,10 +11,9 @@ description: Before he joined The Master's University faculty in fall 2000, Prof
   students and watch them progress through their college years. He and his wife, Linda,
   are originally from Michigan and presently reside in Saugus. Their hobbies include
   professional sports, museums, and good cups of coffee
-undergrad majors: History
+department: History
 degrees:
 - A.S., York College of Pennsylvania
 - B.A., The Master's University
 - M.A., California State University, Long Beach
 ---
-

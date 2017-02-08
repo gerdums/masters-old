@@ -12,9 +12,8 @@ description: Dr. John Stead has served on The Master's University faculty since 
   the Center for Professional Studies at TMU. Dr. Stead's primary areas of academic
   interest and research include contemporary church-state relationships and the impact
   of the church on current political and social public policy.
-undergrad majors: Political Studies
+department: Political Studies
 degrees:
 - B.A., M.A., California State University, Los Angeles
 - Ph.D., University of Southern California
 ---
-
