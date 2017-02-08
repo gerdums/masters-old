@@ -4,7 +4,7 @@ layout: default
 
 <div class="container">
   <ol class="breadcrumb">
-    <li><a href="/academics/online">Online</a></li>
+    <li><a href="{{ "/academics/online" | prepend: site.url }}">Online</a></li>
     <li>{{ page.title }}</li>
   </ol>
   <p>{{ content }}</p>
