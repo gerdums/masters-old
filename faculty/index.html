@@ -4,6 +4,6 @@ layout: default
 
 <div class="container">
   {% for faculty in site.faculty %}
-  <h3><a href="{{ faculty.url }}">{{ faculty.title }}</a></h3>
+  <h3><a href="{{ faculty.url | prepend: site.url }}">{{ faculty.title }}</a></h3>
   {% endfor %}
 </div>
