@@ -77,11 +77,11 @@ defaults:
     type: faculty
   values:
     title: ''
-    permalink: "faculty/:title"
+    permalink: faculty/:title
     job-title: ''
     image: ''
     description: ''
-    undergra dmajors: ''
+    undergrad majors: ''
     permalink: faculty/:title
 email: your-email@domain.com
 description: Write an awesome description for your new site here. You can edit this
