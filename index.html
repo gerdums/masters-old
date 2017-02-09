@@ -7,6 +7,7 @@ layout: default
   <h2 class="center">News</h2>
   <div class="row">
   {% for post in site.posts %}
+  {% if forloop.index <= 3 %}
   <div class="col-sm-4">
     <div class="card">
         <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%282%29.jpg" alt="Card image cap" width="100%">
@@ -18,6 +19,7 @@ layout: default
         </div>
     </div>
   </div>
+  {% endif %}
   {% endfor %}
   </div>
   <h2 class="center">Upcoming Events</h2>

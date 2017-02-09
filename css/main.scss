@@ -151,6 +151,7 @@ body {
 
 .card {
       box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+      margin-bottom: 15px;
 }
 
 .card-block {
@@ -195,4 +196,33 @@ body {
 
 .breadcrumb {
   background-color: $white;
+}
+
+#top {
+  background-color: #0C2340;
+}
+#name {
+  padding-left: 5%;
+}
+#body {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#img {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  #top {
+    background-image: url("https://www.masters.edu/media/868529/facultybanner_update.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 4px solid #DAAA00;
+  }
+  #title {
+    padding-top: 12%;
+  }
 }

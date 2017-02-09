@@ -18,3 +18,14 @@ layout: default
   <time>{{ page.date | date: "%b %-d, %Y" }}</time>
   <p>{{ content }}</p>
 </div>
+
+{% if page.previous.url %}
+<div class="mast absolute-bg" style="background-image: url(http://soulsurfingmaui.com/wp-content/plugins/SoulSurfing/uploads/gallery/23514_IMG_6732%20600.jpg);">
+  <div class="container">
+  <div class="col-sm-8 pull-right">
+    <h3 style="margin-top: 50%; text-align: right;">{{ page.previous.title }}</h3>
+    <h3 style="text-align: right;"><a href="{{ page.previous.url }}">Read Next</a></h3>
+  </div>
+  </div>
+</div>
+{% endif %}
