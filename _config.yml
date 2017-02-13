@@ -3,7 +3,7 @@ title: The Master's University
 timezone: UTC
 collections:
   authors:
-    title: authors
+    title: Authors
     output: false
   departments:
     title: Departments
