@@ -9,6 +9,7 @@ layout: default
       <h3><a class="wht-a" href="{{ site.url }}"><i class="fa fa-lg fa-arrow-left"></i><span> Back to News</span></a></h3>
       <h3 style="margin-top: 50%">{{ page.title }}</h3>
       <time>{{ page.date | date: "%b %-d, %Y" }}</time>
+      <p>By: {{ site.data.authors[page.author].name }}</p>
     </div>
     </div>
   </div>
@@ -16,6 +17,7 @@ layout: default
 <div class="container">
   <h3>{{ page.title }}</h3>
   <time>{{ page.date | date: "%b %-d, %Y" }}</time>
+  <p>By: {{ site.data.authors[page.author].name }}</p>
   <p>{{ content }}</p>
 </div>
 
@@ -24,7 +26,7 @@ layout: default
   <div class="container">
   <div class="col-sm-8 pull-right">
     <h3 style="margin-top: 50%; text-align: right;">{{ page.previous.title }}</h3>
-    <h3 style="text-align: right;"><a href="{{ page.previous.url }}">Read Next</a></h3>
+    <h3 style="text-align: right;"><a href="{{ page.previous.url | prepend: site.url }}">Read Next</a></h3>
   </div>
   </div>
 </div>
