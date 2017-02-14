@@ -1,4 +1,4 @@
 ---
-title: liberal Studies
+title: Liberal Studies
 ---
 
