@@ -3,7 +3,7 @@ layout: default
 ---
 
 <header>
-  <div class="mast absolute-bg" style="background-image: url(http://soulsurfingmaui.com/wp-content/plugins/SoulSurfing/uploads/gallery/23514_IMG_6732%20600.jpg);">
+  <div class="mast absolute-bg" style="background-image: url({{ page.image | prepend: site.url }});">
     <div class="container">
     <div class="col-sm-8">
       <h3><a class="wht-a" href="{{ site.url }}"><i class="fa fa-lg fa-arrow-left"></i><span> Back to News</span></a></h3>
@@ -25,7 +25,7 @@ layout: default
 </div>
 
 {% if page.previous.url %}
-<div class="mast absolute-bg" style="background-image: url(http://soulsurfingmaui.com/wp-content/plugins/SoulSurfing/uploads/gallery/23514_IMG_6732%20600.jpg);">
+<div class="mast absolute-bg" style="background-image: url({{ page.previous.image | prepend: site.url }});">
   <div class="container">
   <div class="col-sm-8 pull-right">
     <h3 style="margin-top: 50%; text-align: right;">{{ page.previous.title }}</h3>
