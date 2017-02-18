@@ -4,10 +4,25 @@
 $gold: #DAAA00;
 $navy: #0C2340;
 $white: #ffffff;
+$bgDefault      : #0c2340;
+$bgHighlight    : #081729;
+$colDefault     : #ffffff;
+$colHighlight   : #daaa00;
+
+//@import 'header';
+
+////.nav-header {
+//    background: url(/images/header.jpg);
+//}
+//
+////.logo-box {
+//    background-color: $navy; !important
+//}
 
 body {
   font-family: 'Roboto', sans-serif;
 }
+
 .navbar {
   margin-bottom: 0px;
   border-radius: 0px;
@@ -40,6 +55,22 @@ body {
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
   background-color: $navy;
 }
+
+.open .dropdown-menu > .active {
+        > a, > a:hover, > a:focus {
+          color: $colHighlight;
+          background-color: $bgHighlight; }}
+
+.dropdown-menu {
+          background-color: $bgDefault;
+          > li {
+            > a {
+              color: $colDefault;
+              &:hover,  &:focus {
+                color: $colHighlight;
+                background-color: $bgHighlight; }}
+            > .divider {
+              background-color: $bgHighlight;}}}
 
 .btn-primary {
   color: $white;
